@@ -21,7 +21,7 @@
 - 먼저, git과 Anaconda가 설치되어 있어야 합니다.
 - 비어있는 디렉토리에 다음 명령어를 통해 가상환경을 만듭니다.
 
-      conda create -n myenv python=3.9
+      conda create --name myenv python=3.9
 - 그 다음, 가상환경을 실행시켜줍니다.
 
       conda activate myenv
@@ -30,7 +30,7 @@
       git clone https://github.com/JiunJung/videoSplitter.git
 - 다음 명령어를 통해서 필요한 라이브러리를 설치합니다.
 
-      pip install -r requirements.txt
+      conda env create --file environment.yaml
 - 이제 모든 준비가 끝났습니다. 다음 명령어를 통해서 실행하십시오.
   
       python main.py
