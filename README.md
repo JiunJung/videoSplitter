@@ -34,6 +34,10 @@
 - 이제 모든 준비가 끝났습니다. 다음 명령어를 통해서 실행하십시오.
   
       python main.py
+      
+- 만약, "CondaValueError: Value error: prefix already exists:"와 같은 에러가 나타난다면, env파일이 설치되어있는 경로로 들어가 envs폴더 안의 충돌을 일으키는 env파일을 지워야 합니다. 그리고 다시 다음의 명령어를 실행합니다.
+
+      conda env create --file environment.yaml
 
 
 
