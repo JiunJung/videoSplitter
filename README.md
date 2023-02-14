@@ -2,6 +2,8 @@
 
 ### 동영상의 모든 프레임을 이미지 파일로 저장합니다.<br/><br/>
 
+여러 각도에서 찍은 수천개의 사진 데이터가 필요한 경우, 동영상을 찍은 후 비디오 스플리터로 간단하게 얻어낼 수 있습니다!
+
 ## 1. 사용 방법
 <br/>
 <img src="./example_image/example.jpg" width="450px" height="300px" title="example image" alt="example image"></img>
